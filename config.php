@@ -18,17 +18,17 @@
     $ADEI_SRCTREE_EXTRA = array();
     $ADEI_INFO_MODULES = array(
         "legend" => array(
-            'title' => _("Channel Overview"),
+            'title' => ("Channel Overview"),
             'handler' => "CHANNELView",
             'opts' => array()
         ),
         "scatter" => array(
-            'title' => _("Scatter Plot"),
+            'title' => ("Scatter Plot"),
             'handler' => "SCATTERView",
             'opts' => array()
         ),
         "histogram" => array(
-            'title' => _("Histogram"),
+            'title' => ("Histogram"),
             'handler' => "histogramview",
             'opts' => array(
 		'bins' => array(0, 5, 10, 20, 50)
@@ -87,14 +87,14 @@
     );
 
     $ADEI_TIMINGS = array (
-	_("1 Year") => 31536000,
-	_("1 Month") => 2592000,
-	_("1 Week") => 604800,
-	_("1 Day") => 86400,
-	_("6 Hours") => 21600,
-	_("1 Hour") => 3600,
-	_("15 Min") => 900,
-	_("5 Min") => 300
+	("1 Year") => 31536000,
+	("1 Month") => 2592000,
+	("1 Week") => 604800,
+	("1 Day") => 86400,
+	("6 Hours") => 21600,
+	("1 Hour") => 3600,
+	("15 Min") => 900,
+	("5 Min") => 300
     );
     
     
@@ -110,11 +110,11 @@
     
     $ADEI_VIRTUAL_READERS = array(
 /*	"virtual_vg" => array(
-	    "title" => _("User Groups"),
+	    "title" => ("User Groups"),
 	    "reader"=> "VGReader"
 	),*/
 	"virtual" => array(
-	    "title" => _("Virtual"),
+	    "title" => ("Virtual"),
 	    "reader" => "VIRTUALReader"
 	)
     );
@@ -123,122 +123,122 @@
 /*	"0" => array(
 	),*/
 	"countrate" => array(
-	    "axis_name" => _("Count Rate"),
+	    "axis_name" => ("Count Rate"),
 	    "axis_units" => false,
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),    
 	"percent" => array(
 	    "axis_name" => false,
-	    "axis_units" => _("%"),
+	    "axis_units" => ("%"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),    
 	"temperature" => array(
-	    "axis_units" => _("C"),
-	    "axis_name" => _("Temperature"),
+	    "axis_units" => ("C"),
+	    "axis_name" => ("Temperature"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"temperature/kelvin" => array(
-	    "axis_units" => _("K"),
-	    "axis_name" => _("Temperature"),
+	    "axis_units" => ("K"),
+	    "axis_name" => ("Temperature"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"voltage" => array(
-	    "axis_units" => _("V"),
-	    "axis_name" => _("Voltage"),
+	    "axis_units" => ("V"),
+	    "axis_name" => ("Voltage"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"voltage/kilo" => array(
-	    "axis_units" => _("kV"),
-	    "axis_name" => _("Voltage"),
+	    "axis_units" => ("kV"),
+	    "axis_name" => ("Voltage"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"current" => array(
-	    "axis_units" => _("A"),
-	    "axis_name" => _("Current"),
+	    "axis_units" => ("A"),
+	    "axis_name" => ("Current"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"current/micro" => array(
-	    "axis_units" => _("uA"),
-	    "axis_name" => _("Current"),
+	    "axis_units" => ("uA"),
+	    "axis_name" => ("Current"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"current/nano" => array(
-	    "axis_units" => _("nA"),
-	    "axis_name" => _("Current"),
+	    "axis_units" => ("nA"),
+	    "axis_name" => ("Current"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"resistance" => array(
-	    "axis_units" => _("Ohm"),
-	    "axis_name" => _("Resistance"),
+	    "axis_units" => ("Ohm"),
+	    "axis_name" => ("Resistance"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	), 
 	"pressure" => array(
-	    "axis_units" => _("bar"),
-	    "axis_name" => _("Pressure"),
+	    "axis_units" => ("bar"),
+	    "axis_name" => ("Pressure"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"pressure/psi" => array(
-	    "axis_units" => _("psi"),
-	    "axis_name" => _("Pressure"),
+	    "axis_units" => ("psi"),
+	    "axis_name" => ("Pressure"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"pressure/milli" => array(
-	    "axis_units" => _("millibar"),
-	    "axis_name" => _("Pressure"),
+	    "axis_units" => ("millibar"),
+	    "axis_name" => ("Pressure"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"pressure/hpa" => array(
-	    "axis_units" => _("hPa"),
-	    "axis_name" => _("Pressure"),
+	    "axis_units" => ("hPa"),
+	    "axis_name" => ("Pressure"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"mass" => array(
-	    "axis_units" => _("kg"),
-	    "axis_name" => _("Mass"),
+	    "axis_units" => ("kg"),
+	    "axis_name" => ("Mass"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"rpm" => array(
-	    "axis_units" => _("rpm"),
-	    "axis_name" => _("RPM"),
+	    "axis_units" => ("rpm"),
+	    "axis_name" => ("RPM"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"volume-flow" => array(
-	    "axis_units" => _("m3/s"),
-	    "axis_name" => _("Flow"),
+	    "axis_units" => ("m3/s"),
+	    "axis_name" => ("Flow"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"mass-flow" => array(
-	    "axis_units" => _("g/s"),
-	    "axis_name" => _("Mass-flow"),
+	    "axis_units" => ("g/s"),
+	    "axis_name" => ("Mass-flow"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"power" => array(
-	    "axis_units" => _("W"),
-	    "axis_name" => _("Power"),
+	    "axis_units" => ("W"),
+	    "axis_name" => ("Power"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	),
 	"magnetic_field" => array(
-	    "axis_units" => _("T"),
-	    "axis_name" => _("Magnetic field"),
+	    "axis_units" => ("T"),
+	    "axis_name" => ("Magnetic field"),
 	    "axis_mode" => "STD",
 	    "axis_range" => false
 	)
@@ -331,10 +331,10 @@
     );
     
     $EXPORT_SAMPLING_RATES = array (
-	_("Hourly") => 3600,
-	_("Minutely") => 60,
-	_("1 Hz") => 1,
-	_("1000 Hz") => 0.001
+	("Hourly") => 3600,
+	("Minutely") => 60,
+	("1 Hz") => 1,
+	("1000 Hz") => 0.001
     );
     
     $SEARCH_ENGINES = array (
