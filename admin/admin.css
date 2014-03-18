@@ -1,0 +1,52 @@
+    .header {
+    }
+    .header a {
+	padding: 5px;
+	margin-bottom: 2px;
+	color: #000055;
+	background: #F0F0F0;
+	font-weight: bold;
+	border: 1px solid #C0C0C0;
+	text-decoration: none;
+    }
+    .header a:hover {
+	border: 1px #007000 solid; 
+	background: #FDD;
+    }
+    
+    .error {
+	color: red;
+	font-weight: bold;
+    }
+    
+    .group {
+	background: grey;
+    }
+
+    .source {
+	background: #FFEFD5;
+	margin: 3px;
+    }
+    
+    .list {
+	background: #FF855B;
+    }
+    
+    .logtable td, .logtable th {
+	border: 1px solid black;
+    }
+    
+    .logtable th {
+	background: gray;
+    }
+
+    .logtable a:not(:hover) {
+	text-decoration: none;
+	color: black;
+    }
+    
+    .loginfo th {
+	padding-right: 25px;
+    }
+    
+    
