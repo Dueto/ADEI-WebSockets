@@ -24,7 +24,7 @@ class clientSupport extends WebSocketServer
                 $time = $this->formatTime($elem);
                 $stringToSend = $stringToSend . "\n" . $time . "," . $elem->{$reqObj->getAggregator() . $reqObj->getDb_mask()};
             }
-
+                //send csv string
             $this->send($user, $stringToSend);   
         }
         else
